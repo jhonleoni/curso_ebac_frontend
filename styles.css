@@ -4,10 +4,15 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 body > header{
   background-color:rgb(10, 10, 10);
   padding: 16px 0;
   color: rgb(243, 204, 204);
+  display: flex;
 }
 
 header li {
@@ -24,8 +29,8 @@ header li a{
 
 header .container{
   display: flex;
- align-items: center;
- justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -101,26 +106,27 @@ section h2{
 }
 
 #economy{
-  background-color:rgb(243, 210, 21);
+  background-color:rgb(245, 247, 94);
 }
 
 #economy .articles article a{
-  background-color: orangered;
+  background-color: rgb(255, 123, 0);
 }
 
 #entertainment {
-  background-color: rgba(38, 0, 255, 0.3);
+  background-color: rgba(93, 0, 255, 0.3);
 }
 
 #entertainment .articles article a{
-  background-color: rgb(18, 13, 85);
+  background-color: rgb(71, 13, 85);
 
 }
 
 #technology{
-  background-color:rgba(243, 21, 213,0.5);
+  background-color:rgba(21, 80, 243, 0.5);
+  order: 4;
 }
 
 #technology .articles article a{
-  background-color: rgb(87, 9, 133);
+  background-color: rgb(9, 19, 133);
 }
